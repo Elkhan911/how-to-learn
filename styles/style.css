@@ -30,7 +30,22 @@
   margin-top: 80px;
 }
 
-.description {
-  background-color: greenyellow;
-  width: 175px;
+
+
+
+
+/**/ это надо будет удалить /**/
+h1 {
+  font-family: "Inter";
+  font-weight: semi-bold;
+}
+
+p {
+  font-family: "Inter";
+  font-weight: bold;
+}
+
+h2 {
+  font-family: "Inter";
+  font-weight: semi-bold;
 }
