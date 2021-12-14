@@ -32,20 +32,44 @@
 
 
 
-
-
-/**/ это надо будет удалить /**/
-h1 {
-  font-family: "Inter";
-  font-weight: semi-bold;
+div {
+  border: 1px solid red;
 }
 
-p {
-  font-family: "Inter";
-  font-weight: bold;
+.description {
+  width: 1900px;
+  height: 500px;
+  display: flex;
 }
 
-h2 {
-  font-family: "Inter";
-  font-weight: semi-bold;
+.first-column {
+  width: 30%;
+  height: 100%;
+  font-weight: normal;
+}
+
+.second-column {
+
+}
+
+.p-first-column {
+  color: blue;  
+  font-size: 18px;
+  font-weight: normal;
+  }
+
+  .p-second-column {
+    font-size: 24px;
+    font-weight: normal;
+  }
+
+
+.digits {
+  width: 1900px;
+  height: 500px;
+}
+
+.kaufman {
+  width: 1900px;
+  height: 500px;
 }
