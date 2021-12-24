@@ -1,0 +1,8 @@
+ .cards {
+  border: 1px solid orange;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 920px;
+  margin: auto;
+}

@@ -1,0 +1,7 @@
+.table__heading_theme_dark {
+  border: 1px solid green;
+  margin-bottom: 20px;
+  line-height: 1.15;
+  font-style: 24px;
+  font-weight: bold;
+}
