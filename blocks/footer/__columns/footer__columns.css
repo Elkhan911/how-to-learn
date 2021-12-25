@@ -1,0 +1,7 @@
+.footer__columns {
+  border: 1px solid orange;
+  width: 90%;
+  margin: auto;
+  display: flex;
+
+}
