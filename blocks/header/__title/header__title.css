@@ -1,9 +1,12 @@
 .header__title {
-  /* border: 1px solid orange; */
+  border: 1px solid orange;
+
   width: 730px;
   position: absolute;
   left: 64px;
+  align-self: center;
+
   line-height: 96px;
   font-size: 102px;
-  font-weight: bold;
+  font-weight: 600;
 }

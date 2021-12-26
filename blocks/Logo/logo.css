@@ -1,7 +1,8 @@
 .logo {
-    border: 1px solid orange;
-    width: 183px;
-    height: 32px;
-    background-position: center;
-    background-repeat: no-repeat;
+  border: 1px solid orange;
+
+  width: 183px;
+  height: 32px;
+  background-position: center;
+  background-repeat: no-repeat;
 }

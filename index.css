@@ -56,39 +56,31 @@
 }
 
 .description {
-  border: 1px solid orange;
+  border: 2px solid red;
 }
 
 .techniques {
-  border: 1px solid orange;
-  min-width: 1100px;
-  min-height: 800px;
+  border: 2px solid red;
+  width: 80%;
+  margin: auto;
 }
 
 .digits {
-  border: 1px solid orange;
-  min-width: 1100px;
-  min-height: 800px;
+  border: 2px solid red;
 }
 
 .kaufman {
-  border: 1px solid orange;
-  min-width: 1100px;
-  min-height: 800px;
+  border: 2px solid red;
   background-color: black;
   color: white;
 }
 
 .resources {
-  border: 1px solid orange;
-  min-width: 1100px;
-  min-height: 800px;
+  border: 2px solid red;
 }
 
 .footer {
-  border: 1px solid orange;
-  min-width: 1100px;
-  min-height: 800px;
+  border: 2px solid red;
   background-color: black;
   color: white;
 }

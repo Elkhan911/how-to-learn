@@ -1,8 +1,9 @@
 .table {
   border: 1px solid black;
+
+  width: 1100px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around; /* не работает */
+  justify-content: space-between;
   margin: auto;
-  width: 1100px;
 }
