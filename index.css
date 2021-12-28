@@ -43,6 +43,30 @@
 @import url(blocks/footer/__column-links/footer__column-links.css);
 @import url(blocks/footer/__columns/footer__columns.css);
 @import url(blocks/footer/__social-icon/footer__social-icon.css);
+@import url(blocks/video/video.css);
+@import url(blocks/video/__iframe/video__iframe.css);
+@import url(blocks/video/__iframes/video__iframes.css);
+@import url(blocks/feynman/feynman.css);
+@import url(blocks/feynman/__title/feynman__title.css);
+@import url(blocks/feynman/__subtitle/feynman__subtitle.css);
+@import url(blocks/feynman/__link/feynman__link.css);
+@import url(blocks/khan/khan.css);
+@import url(blocks/khan/__author/khan__author.css);
+@import url(blocks/khan/__book-container/khan__book-container.css);
+@import url(blocks/khan/__book-pic/khan__book-pic.css);
+@import url(blocks/khan/__buy-link/khan__buy-link.css);
+@import url(blocks/khan/__container/khan__container.css);
+@import url(blocks/khan/__quote/khan__quote.css);
+@import url(blocks/khan/__quote-author/khan__quote-author.css);
+@import url(blocks/khan/__quote-author-subline/khan__quote-author-subline.css);
+@import url(blocks/khan/__title/khan__title.css);
+@import url();
+@import url();
+@import url();
+@import url();
+@import url();
+@import url();
+@import url();
 
 .page {
   min-width: 1100px;
@@ -54,8 +78,6 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: "Inter", Arial, sans-serif;
 }
-
-
 
 .description {
   border: 2px solid red;
@@ -93,4 +115,34 @@
   color: white;
   margin-top: 60px;
   margin-bottom: 40px;
+}
+
+.video {
+  border: 2px solidrgb(0, 255, 0);
+  margin-bottom: 160px;
+}
+
+.oakley {
+  border: 2px solid rgb(0, 255, 0);
+  margin-bottom: 100px;
+}
+
+.feynman {
+  border: 2px solid rgb(0, 255, 0);
+  background-image: url(images/feinman.png);
+  background-position-x: left;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  background-size: 867px 637px;
+  height: 890px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.khan {
+  border: 2px solid rgb(0, 255, 0);
+  width: 80%;
+  margin: auto;
 }
