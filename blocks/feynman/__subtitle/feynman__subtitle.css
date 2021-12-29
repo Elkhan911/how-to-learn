@@ -1,10 +1,6 @@
 .feynman__subtitle {
-  border: 1px solid blue;
-
-position: absolute;
-top: 446px;
-
-
+  position: absolute;
+  top: 446px;
 
   line-height: 51px;
   font-size: 36px;

@@ -1,6 +1,6 @@
 .khan__book-pic {
-  border: 1px solid red;
+  width: 520px;
+  height: 608px;
 
-width: 520px;
-height: 608px;
+  margin-right: 48px;
 }

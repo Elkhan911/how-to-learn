@@ -1,9 +1,7 @@
 .two-columns {
-    border: 1px solid orange;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 80%;
-    margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
 }
