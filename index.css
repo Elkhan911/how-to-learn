@@ -60,8 +60,8 @@
 @import url(blocks/khan/__quote-author/khan__quote-author.css);
 @import url(blocks/khan/__quote-author-subline/khan__quote-author-subline.css);
 @import url(blocks/khan/__title/khan__title.css);
-@import url();
-@import url();
+@import url(blocks/kaufman/kaufman__triangle.css);
+@import url(blocks/rotation/rotation.css);
 @import url();
 @import url();
 @import url();
@@ -99,10 +99,12 @@
   padding-top: 90px;
   padding-bottom: 90px;
   margin-bottom: 100px;
+  position: relative;
+  overflow: hidden;
 }
 
 .resources {
-margin-bottom: 217px;
+  margin-bottom: 217px;
 }
 
 .footer {
@@ -113,11 +115,11 @@ margin-bottom: 217px;
 }
 
 .video {
-  margin-bottom: 160px;
 }
 
 .oakley {
-  margin-bottom: 100px;
+  background-color: #f2f2f2;
+  padding-top: 160px;
 }
 
 .feynman {
@@ -132,9 +134,19 @@ margin-bottom: 217px;
   justify-content: center;
   align-items: center;
   margin-bottom: 100px;
+  padding-top: 100px;
 }
 
 .khan {
   margin: auto;
   background-color: #f2f2f2;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
