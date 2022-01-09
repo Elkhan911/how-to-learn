@@ -7,4 +7,6 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  z-index: 8;
+  margin: 0px;
 }
