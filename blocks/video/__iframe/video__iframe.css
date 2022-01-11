@@ -3,6 +3,7 @@
   width: 515px;
   height: 316px;
   border: 0px;
+  transform: translate(0px, 60px);
 }
 
 .video__iframe:last-of-type {

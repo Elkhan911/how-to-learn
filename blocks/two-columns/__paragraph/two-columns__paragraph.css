@@ -7,7 +7,6 @@
   font-weight: normal;
 }
 
-.two-columns__paragraph:nth-child(3n) {
+.two-columns__paragraph:nth-last-child(n) {
   margin: 0;
 }
-  
